@@ -1,0 +1,85 @@
+
+
+.texto1 {
+    padding: 10px; /* Adiciona um preenchimento interno de 10px */
+    width: 500px; /* Define uma largura fixa para o "quadro" */
+    word-wrap: break-word; /* Força a quebra de palavras longas */
+    text-align: justify; /* Alinha o texto justificado */
+    position: absolute;
+    top: 200px;
+    left: 110px;
+
+}
+.texto1 h2{
+    color:#281349;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: -80px;
+    left: 170px;
+}
+.texto1 p{
+    font-size: 23px;
+    position: absolute;
+}
+.detalhes1{
+    position: absolute;
+    top: 430px;
+    left: 320px;
+    font-size:80px;
+}
+.detalhes1 {
+    background-color: #592CA4; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 10px 15px; /* Preenchimento interno do botão */
+    border: none; /* Remove a borda */
+    border-radius: 19px; /* Adiciona cantos arredondados */
+    cursor: pointer; /* Mostra o cursor de ponteiro ao passar por cima */
+    font-size: 20px; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Adiciona uma transição suave para a mudança de cor de fundo */
+    margin-top: 10px; /* Adiciona margem superior */
+}
+.detalhes1:hover {
+    background-color: #2d0b63; /* Altera a cor de fundo */
+    color: rgb(255, 255, 255);
+}
+.texto2 {
+    padding: 10px; /* Adiciona um preenchimento interno de 10px */
+    width: 500px; /* Define uma largura fixa para o "quadro" */
+    word-wrap: break-word; /* Força a quebra de palavras longas */
+    text-align: justify; /* Alinha o texto justificado */
+    position: absolute;
+    top: 200px;
+    left: 790px;
+
+}
+.texto2 h2{
+    color:#281349;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: -80px;
+    left: 170px;
+}
+.texto2 p{
+    font-size: 23px;
+    position: absolute;
+}
+
+.detalhes2 {
+    position: absolute;
+    top: 430px;
+    left: 999px;
+    font-size:80px;
+    background-color: #592CA4; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 10px 15px; /* Preenchimento interno do botão */
+    border: none; /* Remove a borda */
+    border-radius: 19px; /* Adiciona cantos arredondados */
+    cursor: pointer; /* Mostra o cursor de ponteiro ao passar por cima */
+    font-size: 20px; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Adiciona uma transição suave para a mudança de cor de fundo */
+    margin-top: 10px; /* Adiciona margem superior */
+}
+.detalhes2:hover {
+    background-color: #2d0b63; /* Altera a cor de fundo */
+    color: rgb(255, 255, 255);
+}

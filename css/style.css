@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Sedgwick+Ave+Display&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    background-color: rgb(28,13,49);
+    z-index: 999; /* Defina um valor alto para garantir que o menu fique acima de outros elementos */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+.rodape li{
+    display: inline-block;
+    margin: 0 12px;
+}
+
+
+.logo {
+    margin-right: auto;
+
+}
+
+.logo img {
+    width: 200px;
+}   
+.logo:hover img {
+    filter: drop-shadow(0px 0px 12px rgb(79, 0, 207)); /* Adicione o efeito de brilho desejado */
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+    position: absolute;
+    left: 530px;
+}
+
+.links a {
+    font-size: 23px;
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: "Almendra SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: color 0.3s ease, font-size 0.3s ease; /* Adiciona uma transição suave para a cor e tamanho da fonte */
+}
+
+
+.links a:last-child {
+    margin-right: 0;
+}
+
+.links a:hover:not(:hover) {
+    font-size: 23px; /* Mantém o tamanho original para links que não estão sendo passados por cima */
+}
+
+.links a:hover {
+    color: rgb(132, 0, 255); /* Altere a cor como desejar */
+    font-size: 26px; /* Aumenta o tamanho da fonte apenas para o link atual */
+    filter: drop-shadow(0px 0px 12px rgb(92, 0, 179)); /* Adicione o efeito de brilho desejado */
+}
+
+    
+.banner{
+    position: absolute;
+    left: 70px;
+    top: 85px;
+}
+
+.container {
+    position: fixed;
+     /* Ajuste conforme necessário */
+    right: 500px; /* Ajuste conforme necessário */
+    width: 300px; /* Ajuste conforme necessário */
+    padding: 20px;
+    background-color: #f0f0f0fd;
+    position: absolute;
+    top: 320px;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.produtonike img {
+    width: 200px;
+    height: auto;
+}
+
+.produto-info {
+    text-align: center;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3d0572;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.conteudo-site {
+    position: relative;
+    z-index: 1;
+}

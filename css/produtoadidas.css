@@ -1,0 +1,100 @@
+/* produtonike.css */
+
+.produto-details {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os itens */
+}
+
+.produto-info {
+    flex: 1; /* Ocupa todo o espaço disponível */
+}
+
+.produto-img {
+    margin-right: 20px; /* Adiciona espaço entre a imagem e o texto */
+    display: flex; /* Usando flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    max-width: 900px; /* Define a largura máxima da imagem */
+    position: absolute;
+    top: 100px; 
+    left: 90px; 
+}
+.produto-img img{
+    width:500px;
+    height: auto;
+}
+
+.produto-info {
+    border: 2px solid #333; /* Adiciona borda ao redor do texto */
+    padding: 20px; /* Adiciona preenchimento interno ao redor do texto */
+    max-width: 600px; /* Aumenta a largura máxima do quadrado */
+    position: absolute;
+    top: 250px;
+    left: 900px; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajusta a posição para o centro */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+
+.produto-info h2 {
+    font-size: 18px; /* Tamanho da fonte para o título */
+}
+
+.produto-info p {
+    font-size: 14px; /* Tamanho da fonte para o texto */
+}
+
+.comprar-btn {
+    background-color: green; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 8px 12px; /* Preenchimento interno do botão */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+    cursor: pointer; /* Mostra o cursor de ponteiro ao passar por cima */
+    font-size: 14px; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Adiciona uma transição suave para a mudança de cor de fundo */
+    margin-top: 10px; /* Adiciona margem superior */
+}
+.comprar-btn:hover {
+    background-color: #4ef549; /* Altera a cor de fundo */
+    color: black;
+}
+/* arquivo.css */
+
+/* arquivo.css */
+
+.heart {
+    background-color: white;
+    color: rgba(221, 193, 193, 0.685);
+    font-size: 45px;
+    border: none;
+    position: absolute;
+    right: 390px;
+    cursor: copy;
+}
+
+.heart.vermelho {
+    color: red;
+}
+
+.heart:hover {
+    color: rgba(255, 0, 0, 0.5); /* Vermelho claro */
+}
+
+.preço{
+    position: absolute;
+    left: 160px;
+    color: #F84F19;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.titulo{
+    position: absolute;
+    top: 130px;
+    left: 660px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bt-trocacor{
+    position: absolute;
+    top: 180px;
+    left: 665px;
+}

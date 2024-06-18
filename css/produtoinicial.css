@@ -1,0 +1,119 @@
+.painel {
+    position: fixed;
+     /* Ajuste conforme necessário */
+    right: 500px; /* Ajuste conforme necessário */
+    width: 300px; /* Ajuste conforme necessário */
+    padding: 20px;
+    background-color: #f0f0f000;
+    position: absolute;
+    top: 110px;
+    position: absolute;
+    top: 310px;
+}
+
+.produto1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.produtonike1 img {
+    width: 200px;
+    height: auto;
+}
+
+.produto-info {
+    text-align: center;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3d0572;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.painel2 {
+    position: fixed;
+     /* Ajuste conforme necessário */
+    right: 500px; /* Ajuste conforme necessário */
+    width: 300px; /* Ajuste conforme necessário */
+    padding: 20px;
+    background-color: #f0f0f000;
+    position: absolute;
+    top: 110px;
+    position: absolute;
+    top: 310px;
+    left: 150px;
+}
+
+.produto2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.produtonike2 img {
+    width: 200px;
+    height: auto;
+}
+
+.produto-info {
+    text-align: center;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3d0572;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    right: 90px;
+    top: 280px;
+}
+.painel3 {
+    position: fixed;
+     /* Ajuste conforme necessário */
+    right: 500px; /* Ajuste conforme necessário */
+    width: 300px; /* Ajuste conforme necessário */
+    padding: 20px;
+    background-color: #f0f0f000;
+    position: absolute;
+    top: 110px;
+    position: absolute;
+    top: 310px;
+    right: 120px;
+}
+
+.produto3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.produtonike3 img {
+    width: 200px;
+    height: auto;
+}
+
+.produto-info {
+    text-align: center;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3d0572;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,94 @@
+.formulario{
+    position: absolute;
+    top: 120px;
+    left: 40px;
+  }
+  .formulario h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #313131;
+    position: absolute;
+    top: -30px;
+    left: 20px;
+
+  }
+  .formulario form{
+    background-color: #ececec;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  .formulario label{
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario input[type="reset"],
+  .formulario textarea{
+    width: calc(100% - 0px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .formulario input[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 9px;
+  }
+  .formulario input[type="submit"]:hover{
+    background-color: #378a3a;
+  }
+  .formulario input[type="reset"]{
+    background-color: #dd4646;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .formulario input[type="reset"]:hover{
+    background-color: #b63333;
+  }
+.redes {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 260px;
+    left: 390px;
+    
+}
+
+.redes h2 {
+    margin-bottom: 10px; /* Adiciona um espaçamento de 10 pixels abaixo de cada h2 dentro da classe .redes */
+}
+
+.mapa{
+    position: absolute;
+    top: 87px;
+    left: 600px;
+    border: 8px solid #575757;
+    border-radius: 10px;
+}
+
+.limpar{
+    display: flex;
+    flex-direction: column;
+}
+.enviar{
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    resize: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
