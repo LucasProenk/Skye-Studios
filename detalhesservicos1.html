@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/detalhesserviço1.css">
     <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <script src="JS/flip.js" defer></script>
 </head>
 <body>
     <div class="menu">
@@ -34,9 +35,15 @@
         <h2>Personalização</h2>
         <p>Oque são essas personalizações? São do tipo que vem com nossa logo da empresa skye, mas pode deixar do seu jeito ex: você que gosta de carro pode deixar logo da nossa empresa e uma estampa de carro da sua preferência com design sem igual e entre outros modelos a criatividade não tem fim.</p>
     </div>
-    <h2 class="frente">Frente</h2> <h2 class="verso">Verso</h2>
-    <img class="img" src="img/detalhes1.png" alt="">
-    <br><br><br><br><br> 
+    <h2 class="frente">Click na imagem para poder ver o verso da camiseta</h2>
+
+    <div class="flip-container">
+        <div class="flipper">
+            <img src="img/frente.png" alt="" id="img1" class="front">
+            <img src="img/verso.png" alt="" id="img2" class="back">
+        </div>
+    </div>
+    <div class="seta"><img src="img/seta.png" alt=""></div>
 </body>
 <div class="rodape">
     <footer>
